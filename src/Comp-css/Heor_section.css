@@ -1,0 +1,104 @@
+.sec-btn{
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.1rem;
+    background: #000000;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+.sec-btn:active{
+    transform: scale(0.9);
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero{
+    max-width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+#who{
+    margin-top: 50px;
+    font-size: 6rem;
+    font-weight: 300;
+}
+#name{
+    font-size: 5.4rem;
+    color: #8123fb;
+    font-weight: 500;
+}
+.info-div p{
+    color: #e6e6e651;
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+#hasna-img{
+    filter:grayscale(100%) ;
+}
+#zali{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+}
+.developer-div{
+    position: relative;
+}
+#star{
+    position: absolute;
+    top: 30%;
+    right:15% ;
+}
+
+.skill-box {
+  position: relative;
+  display: inline-block;
+  padding: 30px 50px;
+  background: #1e1e1e;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.skill-box .skill-text {
+  position: relative;
+  z-index: 2;
+}
+
+/* circles */
+.skill-box .circle {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid #8123fb;
+  width: 20px;
+  height: 20px;
+  animation: float 2s infinite alternate;
+}
+
+.circle-1 { top: -10px; left: -10px; }
+.circle-2 { bottom: -10px; right: -10px; }
+
+/* lines */
+.skill-box .line {
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background: #8123fb;
+}
+
+.line-1 { top: 0; left: -60px; transform: rotate(30deg); }
+.line-2 { bottom: 0; right: -60px; transform: rotate(-30deg); }
+
+/* float animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  100% { transform: translateY(-10px); }
+}
