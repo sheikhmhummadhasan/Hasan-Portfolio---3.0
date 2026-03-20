@@ -24,10 +24,10 @@
 }
 #s-logo{
     font-size: 4.7rem;
-
 }
 .skill-btn{
     background: #000000;
+    color: #194BFD;
     border: none;
     height: 50px;
     width: 200px;
@@ -43,7 +43,7 @@
 .skill-2{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }

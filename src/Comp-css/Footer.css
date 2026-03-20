@@ -1,0 +1,27 @@
+footer h4,footer p{
+    color: #e6e6e651;
+    font-weight: 400;
+    width: 350px;
+    margin: 5px 0px;
+        display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+footer h2{
+    font-size: 2rem;
+}
+.fbox img{
+    height: 30px;
+}
+#fi{
+    font-size: 3rem;
+}
+.icon-f{
+    display: flex;
+    gap: 10px;
+}
