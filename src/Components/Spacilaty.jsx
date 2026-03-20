@@ -7,7 +7,7 @@ const Spacilaty = () => {
                 <div className="s-box-1">
                     <h3>SPECIALITY</h3>
                     <h2>My <span>speciality</span></h2>
-                    <p>I am skilled in Keyword Recharge, Web Development, and Illustration Design
+                    <p id='p-1'>I am skilled in Keyword Recharge, Web Development, and Illustration Design
                         i create creative and effective solutions to bring ideas to life.</p>
                 </div>
                 <div className="s-box-2">

@@ -1,0 +1,114 @@
+@media screen and (max-width:576px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .skill-box{
+        margin: 20px auto;
+        margin-left: 80px;
+        /* width: 300px; */
+        padding: 20px;
+    }
+    .btns{
+        flex-direction: column;
+    }
+    .info-div{
+        max-width: 576px;
+        padding: 10px;
+    }
+    #who{
+        font-size: 4rem;
+        margin-top: 0px;
+    }
+    #name{
+        font-size: 4rem;
+    }
+    .s-box-2 {
+        flex-direction: column;
+    }
+    #p-1{
+       display: none;
+    }
+    .spacilaty{
+        flex-direction: column;
+    }
+    .about-box-1 h1{
+        font-size: 3rem;
+    }
+    .about-box-1 p{
+        display: none;
+    }
+    .upper{
+        flex-direction: column;
+        max-width: 576px;
+        margin: 0px auto;
+    }
+    .down{
+        flex-direction: column;
+        margin: 0px;
+        max-width: 576px;
+        margin: 0px auto;
+    }
+    .arro{
+        display: none;
+    }
+    .s-box-1 h2{
+        font-size: 3rem;
+    }
+    .s-box-1 p{
+        display: none;
+    }
+    .card-skill-2{
+        height: 300px;
+        width: 350px;
+        margin: 10px auto;
+    }
+    .project-card{
+        margin: 10px auto;
+    }
+    .skil-1 h2{
+        font-size: 3rem;
+    }
+    .reviewer-pic{
+        display: flex;
+        max-width: 576px;
+        margin: 0px auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .review{
+        flex-direction: column;
+    }
+    .reviewer-comment{
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #clint{
+        margin: 0px;
+    }
+    .idea{
+        flex-direction: column;
+        width: auto;
+        background-image: none;
+        /* margin-top: 10px; */
+        margin: 0px;
+        display: none;
+    }
+    .idea-1{
+        flex-direction: column;
+    }
+    .idea-2{
+        margin: 0px;
+    }
+    footer{
+        margin: 100px 0px 0px;
+        flex-direction: column-reverse;
+    }
+}

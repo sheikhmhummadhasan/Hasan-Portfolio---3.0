@@ -13,13 +13,13 @@ const Aboutme = () => {
                 </div>
                 <div className="about-box-2">
                     <div className="upper">
-                        <div className="outer"><div className="inner"><h3>Research</h3></div></div><GoArrowDownRight  id='Rup'/>
-                        <div className="outer"><div className="inner"><h3>Design</h3></div></div><GoArrowDownRight id='Rup2'/>
-                        <div className="outer"><div className="inner"><h3>Testing & Review</h3></div></div><GoArrowDownRight id='Rup3'/>
+                        <div className="outer"><div className="inner"><h3>Research</h3></div></div><GoArrowDownRight  id='Rup' className='arro'/>
+                        <div className="outer"><div className="inner"><h3>Design</h3></div></div><GoArrowDownRight id='Rup2' className='arro'/>
+                        <div className="outer"><div className="inner"><h3>Testing & Review</h3></div></div><GoArrowDownRight id='Rup3' className="arro"/>
                     </div>
                     <div className="down">
-                        <div className="outer"><div className="inner"><h3>Planning</h3></div></div><GoArrowUpRight id='Rdown' />
-                        <div className="outer"><div className="inner"><h3>Development</h3></div></div><GoArrowUpRight id='Rdown2' />
+                        <div className="outer"><div className="inner"><h3>Planning</h3></div></div><GoArrowUpRight id='Rdown' className='arro' />
+                        <div className="outer"><div className="inner"><h3>Development</h3></div></div><GoArrowUpRight id='Rdown2' className='arro' />
                         <div className="outer"><div className="inner"><h3>Delivery</h3></div></div>
                     </div>
                 </div>
